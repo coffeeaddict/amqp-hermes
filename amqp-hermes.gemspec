@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "amqp-hermes"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Hartog C. de Mik"]
-  s.date = "2012-03-01"
+  s.date = "2012-07-26"
   s.description = "Wrapper around ruby-amqp to make pub/sub easier"
   s.email = "hartog.de.mik@gmail.com"
   s.extra_rdoc_files = [
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "amqp-hermes.gemspec",
     "lib/amqp-hermes.rb",
     "lib/amqp-hermes/connectivity.rb",
     "lib/amqp-hermes/message.rb",
@@ -39,7 +40,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/wyngle/amqp-hermes"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.16"
+  s.rubygems_version = "1.8.11"
   s.summary = "Hermes; Messenger of the gods"
 
   if s.respond_to? :specification_version then
